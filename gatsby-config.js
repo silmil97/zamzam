@@ -9,8 +9,13 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "vk2GmIcUsuXNx8pqH15nLxVNsJReBIwFMdDKtm5MhNY",
+      "accessToken": "TAE6Or3gG2IL1I1D9HAUqMT5_DENjbxGRHWY054SzUM",
       "spaceId": "jqq7u9aozdtr"
     }
-  }]
+  },
+  'gatsby-plugin-image',
+  `gatsby-plugin-sharp`,
+  'gatsby-plugin-postcss',
+  
+  ]
 };
