@@ -40,7 +40,7 @@ export const Gerichte = [
                 Allergene: ["G", "K", "H", "14", "2"]
             },
             {
-                Gericht: "Muhammara ",
+                Gericht: "Muhammara",
                 Zusatz: "vegan",
                 Scharf: true,
                 Zutaten: ["scharfer Peperoni-Dip", "Paprika", "gemahlene Walnüsse", "Knoblauch", "Zitronensaft", "Granatapfelmelasse", "Olivenöl"],
