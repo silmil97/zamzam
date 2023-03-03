@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <div className="bg-cover bg-center h-screen flex justify-center items-center">
-        <div className="bg-primary/70 w-1/2 h-1/3 grid fadeIn1 place-content-center">
+        <div className="bg-primary/70 w-full sm:w-1/2 h-1/3 grid fadeIn1 place-content-center">
           <h1 className="text-3xl text-center font-charm">Willkommen bei <span className="text-tertiary">Z</span>am<span className="text-tertiary">Z</span>am</h1>
           <p className="text-center">Ein Stück Orient in Göttingen</p>
           <div className="flex justify-between mt-6">

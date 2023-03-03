@@ -8,7 +8,7 @@ export function Navbar({ fixed }) {
   return (
     <nav className="w-screen flex fixed z-10 flex-wrap items-center justify-between bg-primary mb-3">
       <div className="w-full px-4 h-full mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative bg-primary  flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <div className="w-full relative bg-primary  flex justify-between md:w-auto md:static md:block md:justify-start">
           <Link
             to="/"
             className="text-sm flex font-bold leading-relaxed mr-4 whitespace-nowrap uppercase "
@@ -17,7 +17,7 @@ export function Navbar({ fixed }) {
             <img className="w-16 py-1" src={Image} alt="Zamzam logo" />
           </Link>
           <button
-            className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
+            className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block md:hidden outline-none focus:outline-none"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
@@ -30,12 +30,12 @@ export function Navbar({ fixed }) {
         </div>
         <div
           className={
-            "lg:flex flex-grow items-center" +
+            "md:flex flex-grow items-center" +
             (navbarOpen ? " flex" : " hidden")
           }
           id="example-navbar-danger"
         >
-          <ul className="flex flex-col h-full lg:flex-row list-none lg:ml-auto">
+          <ul className="flex flex-col h-full md:flex-row list-none md:ml-auto">
             <li className="nav-item">
               <Link
                 to="/"
