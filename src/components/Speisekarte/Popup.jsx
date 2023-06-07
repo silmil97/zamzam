@@ -1,23 +1,23 @@
-import React from "react";
-import Modal from "react-modal";
+import React from 'react';
+import Modal from 'react-modal';
 
 const customStyles = {
   content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    maxHeight: "90vh",
-    width: "90%",
-    marginTop: "60px",
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    maxHeight: '90vh',
+    width: '90%',
+    marginTop: '60px',
   },
 };
 
-Modal.setAppElement("#___gatsby");
+Modal.setAppElement('#___gatsby');
 
-export const Popup = (props) => {
+export default function Popup(props) {
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal(e) {
@@ -33,6 +33,7 @@ export const Popup = (props) => {
   return (
     <>
       <button
+        type="button"
         className="sm:mr-9 mr-3"
         onClick={openModal}
       >
@@ -55,6 +56,7 @@ export const Popup = (props) => {
       <Modal isOpen={modalIsOpen} style={customStyles}>
         <div className="flex mt-0 w-full justify-end">
           <button
+            type="button"
             className="-mr-1 h-4 text-2xl hover:text-tertiary"
             onClick={closeModal}
           >
@@ -62,11 +64,12 @@ export const Popup = (props) => {
           </button>
         </div>
         <img
+          alt="Bild vom Essen"
           className="mx-auto mt-4"
-          style={{ maxHeight: "70vh" }}
+          style={{ maxHeight: '70vh' }}
           src={props.url}
         />
       </Modal>
     </>
   );
-};
+}

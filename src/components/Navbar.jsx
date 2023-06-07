@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import { Link } from 'gatsby';
-import Image from "../images/logo_f_p-removebg-preview.png";
+import Image from '../images/logo_f_p-removebg-preview.png';
 import '../styles/global.css';
 
-export function Navbar({ fixed }) {
+function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <nav className="w-screen flex fixed z-10 flex-wrap items-center justify-between bg-primary mb-3">
@@ -21,17 +21,17 @@ export function Navbar({ fixed }) {
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <div className={navbarOpen ? "open" : " "} id="nav-icon4">
-              <span></span>
-              <span></span>
-              <span></span>
+            <div className={navbarOpen ? 'open' : ' '} id="nav-icon4">
+              <span />
+              <span />
+              <span />
             </div>
           </button>
         </div>
         <div
           className={
-            "md:flex flex-grow items-center" +
-            (navbarOpen ? " flex" : " hidden")
+            `md:flex flex-grow items-center${
+              navbarOpen ? ' flex' : ' hidden'}`
           }
           id="example-navbar-danger"
         >
@@ -78,3 +78,5 @@ export function Navbar({ fixed }) {
     </nav>
   );
 }
+
+export default Navbar;

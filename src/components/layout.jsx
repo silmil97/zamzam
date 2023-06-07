@@ -1,5 +1,5 @@
-import React from "react";
-import { Navbar } from './Navbar'
+import React from 'react';
+import Navbar from './Navbar';
 
 // const currentPage = (current) => {
 //     switch (current) {
@@ -46,15 +46,15 @@ import { Navbar } from './Navbar'
 //     }
 // }
 
+// eslint-disable-next-line react/prop-types
 export default function Layout({ children }) {
-
-    return (
-        <>
-            <header>
-                <Navbar/>
-            </header>
-            {children}
-            <footer></footer>
-        </>
-    )
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      {children}
+      <footer />
+    </>
+  );
 }

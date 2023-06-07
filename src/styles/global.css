@@ -1,10 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @font-face {
     font-family: "Charm";
-    src: url("../../public/fonts/Charm-Regular.ttf");
+    src: url("../fonts/Charm-Regular.ttf");
 }
 
 @keyframes slideIn {
