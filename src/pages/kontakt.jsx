@@ -4,9 +4,6 @@ import '../styles/global.css';
 // import Image from '../images/zamzam_ende_logo.png'
 
 function Kontakt() {
-  const ref = React.useRef(null);
-  console.log(ref);
-
   return (
     <Layout>
       <div className=" h-screen w-screen">

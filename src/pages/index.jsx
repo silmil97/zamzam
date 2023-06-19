@@ -5,8 +5,7 @@ import '../styles/global.css';
 // import Image from '../images/zamzam_ende_logo.png'
 
 function IndexPage({ data }) {
-  const doto = data.allContentfulDish.nodes;
-  console.log(doto, 'hi');
+  // const doto = data.allContentfulDish.nodes;
   return (
     <Layout>
       <div className="bg-cover bg-center h-screen flex justify-center items-center">

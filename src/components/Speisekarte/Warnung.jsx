@@ -20,8 +20,8 @@ function Leaf() {
   );
 }
 
-const veganOrElse = ({ data }) => {
-  if (data.vegan) {
+const veganOrElse = (data) => {
+  if (data?.vegan) {
     return (
       <>
         <Leaf />
@@ -30,7 +30,7 @@ const veganOrElse = ({ data }) => {
     );
   }
 
-  if (data.vegetarian) <Leaf />;
+  if (data?.vegetarian) <Leaf />;
 
   return null;
 };
