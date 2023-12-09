@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import '../styles/global.css';
 // import Image from '../images/zamzam_ende_logo.png'
 
-function IndexPage({ data }) {
+function IndexPage() {
   // const doto = data.allContentfulDish.nodes;
   return (
     <Layout>
