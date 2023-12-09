@@ -12,6 +12,7 @@ function IndexPage() {
         <div className="bg-primary/70 w-full sm:w-1/2 h-1/3 grid fadeIn1 place-content-center">
           <h1 className="text-3xl text-center font-charm">
             Willkommen bei
+            {' '}
             <span className="text-tertiary">Z</span>
             am
             <span className="text-tertiary">Z</span>
