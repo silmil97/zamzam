@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import '../styles/global.css';
 
 function Navbar() {
@@ -13,7 +14,9 @@ function Navbar() {
             className="text-sm flex font-bold leading-relaxed mr-4 whitespace-nowrap uppercase "
             href="#pablo"
           >
-            <img className="w-16 py-1" src="../images/logo_f_p-removebg-preview.png" alt="Zamzam logo" />
+            <div className="py-2">
+              <StaticImage className="w-14 " src="../images/logo.png" alt="Zamzam logo" />
+            </div>
           </Link>
           <button
             className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block md:hidden outline-none focus:outline-none"
@@ -29,8 +32,7 @@ function Navbar() {
         </div>
         <div
           className={
-            `md:flex flex-grow items-center${
-              navbarOpen ? ' flex' : ' hidden'}`
+            `md:flex flex-grow items-center${navbarOpen ? ' flex' : ' hidden'}`
           }
           id="example-navbar-danger"
         >
