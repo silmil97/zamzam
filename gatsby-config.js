@@ -4,6 +4,7 @@ require('dotenv').config();
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: '/zamzam',
   siteMetadata: {
     title: 'zamzamContentful',
     siteUrl: 'https://www.yourdomain.tld',
@@ -11,8 +12,8 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      accessToken: process.env.REACT_APP_API_TOKEN,
-      spaceId: process.env.REACT_APP_API_SPACE_ID,
+      accessToken: process.env.GATSBY_TOKEN,
+      spaceId: process.env.GATSBY_SPACE_ID,
     },
   },
   'gatsby-plugin-image',
