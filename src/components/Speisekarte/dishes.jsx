@@ -26,7 +26,7 @@ export default function Dishes(props) {
               </div>
               <div className="flex justify-between">
                 <p className="py-2">{element.description?.description}</p>
-                {element.picture?.publicUrl ? <Popup url={element.picture.publicUrl} /> : ''}
+                {element.picture?.url ? <Popup url={element.picture.url} /> : ''}
               </div>
             </div>
           </li>

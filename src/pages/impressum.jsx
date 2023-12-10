@@ -33,7 +33,7 @@ function Impressum() {
             <br />
           </p>
 
-          <h3 className="text-2xl">Umsatzsteuer-ID: </h3>
+          <h3 className="text-2xl">Umsatzsteuer-ID: muss hier hin kommen </h3>
           {' '}
           <br />
           <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: umsatz-id</p>

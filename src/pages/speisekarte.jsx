@@ -67,7 +67,7 @@ export const query = graphql`
           name
         }
         picture {
-          publicUrl
+          url
         }
         zusatzstoffe {
           nummer
