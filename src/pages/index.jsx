@@ -2,10 +2,8 @@ import * as React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import '../styles/global.css';
-// import Image from '../images/zamzam_ende_logo.png'
 
 function IndexPage() {
-  // const doto = data.allContentfulDish.nodes;
   return (
     <Layout>
       <div className="bg-cover bg-center h-screen flex justify-center items-center">
@@ -32,7 +30,6 @@ function IndexPage() {
           </div>
         </div>
       </div>
-
     </Layout>
   );
 }
