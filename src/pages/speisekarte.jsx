@@ -7,6 +7,10 @@ import Layout from '../components/layout';
 import DishTypes from '../components/Speisekarte/dishTypes';
 import Allergene from '../components/Speisekarte/Allergene';
 import Zusatzstoffe from '../components/Speisekarte/Zusatzstoffe';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
+config.autoAddCss = false;
 
 function Leaf() {
   return <FontAwesomeIcon icon={faLeaf} className="text-lime-600 -rotate-45" />;
