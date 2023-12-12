@@ -4,10 +4,9 @@ require('dotenv').config();
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: '/zamzam',
   siteMetadata: {
     title: 'zamzamContentful',
-    siteUrl: 'https://www.yourdomain.tld',
+    siteUrl: 'https://www.zamzam-goettingen.de',
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
