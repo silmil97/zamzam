@@ -3,6 +3,7 @@ require('dotenv').config();
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+console.log(process.env)
 module.exports = {
   siteMetadata: {
     title: 'zamzamContentful',
