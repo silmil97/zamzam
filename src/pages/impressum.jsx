@@ -22,7 +22,6 @@ function Impressum() {
           </p>
           <h3 className="text-2xl">Vertreten durch: </h3>
           <p>Omar Abbaiibo</p>
-
           <h3 className="text-2xl">Kontakt:</h3>
           <p>
             Telefon: 0551-38103738
@@ -32,14 +31,12 @@ function Impressum() {
             <a href="mailto:info@zamzam-goettingen.de">info@zamzam-goettingen.de</a>
             <br />
           </p>
-
           <h3 className="text-2xl">Umsatzsteuer-ID:</h3>
           {' '}
           <br />
           <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE293224853</p>
           <br />
           <br />
-
           <h3 className="text-2xl">Wirtschafts-ID: </h3>
           <br />
           <p>

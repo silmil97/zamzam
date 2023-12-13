@@ -5,7 +5,7 @@ require('dotenv').config();
  */
 module.exports = {
   siteMetadata: {
-    title: 'zamzamContentful',
+    title: 'Zamzam Göttingen',
     siteUrl: 'https://www.zamzam-goettingen.de',
   },
   plugins: [{

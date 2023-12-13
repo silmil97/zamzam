@@ -7,9 +7,9 @@ export default function Dishes(props) {
     <>
       {
         props.data.filter(
-          (element) => element.dishtype.name === props.type,
+          (element) => element.dishtype?.name === props.type,
         ).map((element, index) => (
-          <li key={Math.random()} className={`w-full pl-2  z-0 flex ${`slideIn${index % 2}`}`} style={{ background: index % 2 === 0 ? '#e6e4e1' : '#bab9b6' }}>
+          <li key={Math.random()} className={`w-full pl-2  pt-2 z-0 flex ${`slideIn${index % 2}`}`} style={{ background: index % 2 === 0 ? '#e6e4e1' : '#bab9b6' }}>
             <div className="w-full ">
               <div className="flex justify-between ">
                 <h3 className="text-xl underline decoration-2 decoration-tertiary wrap">
