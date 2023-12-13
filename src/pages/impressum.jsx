@@ -29,7 +29,7 @@ function Impressum() {
             <br />
             E-Mail:
             {' '}
-            <a href="mailto:ahmadabbaiibo@googlemail.com">ahmadabbaiibo@googlemail.com</a>
+            <a href="mailto:info@zamzam-goettingen.de">info@zamzam-goettingen.de</a>
             <br />
           </p>
 
