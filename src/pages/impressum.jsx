@@ -6,7 +6,7 @@ function Impressum() {
   return (
     <Layout>
       <div className="h-15 w-full">jj</div>
-      <div className="bg-primary  md:w-8/12 mx-auto mt-14 pb-10">
+      <div className="bg-primary px-4 md:px-0 md:w-8/12 mx-auto mt-14 pb-10">
         <div className="impressum">
           <h1 className="text-5xl">Impressum</h1>
           <br />
