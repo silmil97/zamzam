@@ -22,6 +22,6 @@ jobs:
       - name: Deploy
         env:
           GATSBY_TOKEN: ${{ secrets.GATSBY_TOKEN }}
-          GATSBY_SPACE_ID: ${{ secrets.GATSBY_TOKEN }}
+          GATSBY_SPACE_ID: ${{ secrets.GATSBY_SPACE_ID }}
         run: npm run deploy
 
