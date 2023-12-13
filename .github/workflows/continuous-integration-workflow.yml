@@ -20,8 +20,8 @@ jobs:
         run: npm install
 
       - name: Deploy
-        run: npm run deploy
         env:
           GATSBY_TOKEN: ${{ secrets.GATSBY_TOKEN }}
           GATSBY_SPACE_ID: ${{ secrets.GATSBY_TOKEN }}
+        run: npm run deploy
 
